@@ -1,0 +1,296 @@
+[
+  {
+    "id": "alr-001",
+    "name": "The Double-Faced Cashmere Overcoat",
+    "category": "Outerwear",
+    "price": 1280,
+    "currency": "USD",
+    "badge": "Edition 04",
+    "subtitle": "Sculptural drop-shoulder silhouette cut in Italian cashmere",
+    "description": "An architectural overcoat tailored from heavy double-faced Mongolian cashmere. Features clean horn-button fastenings, deep welt pockets, and an unlined interior that exposes hand-stitched French seams.",
+    "composition": "100% Double-Faced Mongolian Cashmere",
+    "fit": "Generous relaxed cut designed for layering. Order true to size for intended drape.",
+    "details": [
+      "Woven in Biella, Northern Italy",
+      "Hand-finished interior seams",
+      "Concealed natural horn buttons",
+      "Deep structured storm lapel",
+      "Dry clean by luxury specialist only"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      { "name": "Oatmeal Melange", "hex": "#D8CEBE" },
+      { "name": "Obsidian Black", "hex": "#1A1A1A" },
+      { "name": "Charcoal Stone", "hex": "#4A4744" }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "alr-002",
+    "name": "Architectural Box Blazer",
+    "category": "Tailoring",
+    "price": 790,
+    "currency": "USD",
+    "badge": "Permanent Atelier",
+    "subtitle": "Sharp squared shoulders with a waist-skimming straight hem",
+    "description": "Cut from crisp virgin wool fresco, this blazer redefines contemporary proportion with exaggerated shoulders, narrow notched lapels, and clean functional cuffs. Fully lined in cupro silk.",
+    "composition": "98% Virgin Wool, 2% Elastane; 100% Cupro Lining",
+    "fit": "Structured silhouette with light canvas interlining. True to size.",
+    "details": [
+      "Tailored in Porto, Portugal",
+      "Lightweight canvas chest construction",
+      "Double back vents for ease of movement",
+      "Internal chest passport pocket",
+      "Includes ALURA garment dust bag"
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": [
+      { "name": "Espresso Brown", "hex": "#2B221E" },
+      { "name": "Raw Chalk", "hex": "#EFECE6" }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "alr-003",
+    "name": "Heavy Ribbed Cashmere Turtleneck",
+    "category": "Knitwear",
+    "price": 540,
+    "currency": "USD",
+    "badge": "New Edition",
+    "subtitle": "5-gauge chunky fisherman rib in natural un-dyed wool",
+    "description": "Crafted from five-gauge Scottish cashmere, this heavy knit provides tactile warmth with a high folded collar and extended ribbed cuffs designed to pool softly at the wrists.",
+    "composition": "100% 5-Gauge Grade-A Cashmere",
+    "fit": "Boxy, slightly cropped body with extended sleeves.",
+    "details": [
+      "Spun by Todd & Duncan in Kinross, Scotland",
+      "Full fashion seamless linking",
+      "Seamless roll collar",
+      "Pill-resistant dense knit structure"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      { "name": "Ecru Bone", "hex": "#EAE5DC" },
+      { "name": "Slate Heather", "hex": "#63686D" },
+      { "name": "Deep Midnight", "hex": "#141A29" }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "alr-004",
+    "name": "Wide-Leg Double-Pleat Trouser",
+    "category": "Trousers",
+    "price": 460,
+    "currency": "USD",
+    "badge": "Signature",
+    "subtitle": "High-rise fluid drape with forward-facing deep pleats",
+    "description": "A foundational trouser engineered with a clean waistband, deep knife pleats, and an expansive floor-skimming wide leg. Cut in heavyweight wool twill that holds its crisp crease through wear.",
+    "composition": "100% Worsted Wool Twill (340 GSM)",
+    "fit": "High-rise, fitted cleanly across the natural waist with volume through the leg.",
+    "details": [
+      "Internal waistband curtain with rubberized shirt-stay",
+      "Front slant pockets and back welt jet pockets",
+      "Unfinished hem allowance of 5cm for custom tailoring",
+      "Corozo button waist tab closure"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      { "name": "Tarmac Charcoal", "hex": "#262626" },
+      { "name": "Warm Sandstone", "hex": "#B5A795" }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "alr-005",
+    "name": "Heavyweight Gabardine Trench",
+    "category": "Outerwear",
+    "price": 1150,
+    "currency": "USD",
+    "badge": "Limited Run",
+    "subtitle": "Water-repellent compact cotton gabardine with removable storm flap",
+    "description": "A minimalist reinterpretation of the traditional trench coat. Cut without exterior hardware for a serene, monolithic look. Features an exaggerated storm shield, broad raglan sleeves, and a self-fabric tie belt.",
+    "composition": "100% Compact Long-Staple Cotton Gabardine",
+    "fit": "Voluminous envelope silhouette. Sized for versatile seasonal layering.",
+    "details": [
+      "Treated with PFC-free water-resistant biological wax finish",
+      "Calf-length straight hemline",
+      "High convertible stand collar with throat latch",
+      "Ventilated back yoke lined in cotton poplin"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": [
+      { "name": "Dry Khaki", "hex": "#9E937D" },
+      { "name": "Black Ink", "hex": "#111111" }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "alr-006",
+    "name": "Mulberry Silk Bias-Cut Slip Dress",
+    "category": "Tailoring",
+    "price": 580,
+    "currency": "USD",
+    "badge": "Edition 04",
+    "subtitle": "22-momme sandwashed silk charmeuse with fluid asymmetrical drape",
+    "description": "Crafted along the fabric grain to contour gently against the body without cling. Features an architectural square neckline, slender rouleau straps, and a deep calf-grazing hem.",
+    "composition": "100% Grade-6A Mulberry Silk (Sandwashed)",
+    "fit": "Bias cut molds to natural curves. Intended to skim lightly.",
+    "details": [
+      "Velvety matte sandwashed hand-feel",
+      "Double-lined bodice for modesty and structure",
+      "French-seamed throughout",
+      "Self-fabric bound edges"
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": [
+      { "name": "Champagne Raw", "hex": "#D8CDBA" },
+      { "name": "Deep Onyx", "hex": "#121212" }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "alr-007",
+    "name": "Sculptural Calfskin Weekender Tote",
+    "category": "Accessories",
+    "price": 890,
+    "currency": "USD",
+    "badge": "Permanent Atelier",
+    "subtitle": "Full-grain vegetable-tanned leather with hand-painted raw edges",
+    "description": "Unstructured yet freestanding, this oversized carryall is crafted from supple Tuscan calfskin that will develop a rich patina over decades. Designed with wide tubular handles and a concealed magnetic closure.",
+    "composition": "100% Tuscan Full-Grain Calfskin Leather; Raw Suede Interior",
+    "fit": "Generous proportions (48cm x 36cm x 18cm). Holds 16-inch laptop comfortably.",
+    "details": [
+      "Tanned in Santa Croce sull'Arno, Tuscany",
+      "Hand-burnished and lacquered edges",
+      "Interior detachable zippered calfskin pouch",
+      "Solid brass protective base studs with brushed palladium plating"
+    ],
+    "sizes": ["One Size"],
+    "colors": [
+      { "name": "Cognac Saddle", "hex": "#7B4B27" },
+      { "name": "Raven Black", "hex": "#151515" }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "inStock": true,
+    "featured": true
+  },
+  {
+    "id": "alr-008",
+    "name": "Relaxed Poplin Grandad Shirt",
+    "category": "Tailoring",
+    "price": 320,
+    "currency": "USD",
+    "badge": "Signature",
+    "subtitle": "120s two-ply organic Giza cotton with clean band collar",
+    "description": "An everyday staple elevated with obsessive proportion. Cut with a relaxed dropped shoulder, elongated curved hemline, and Mother-of-Pearl buttons sourced from sustainable fisheries in Australia.",
+    "composition": "100% Extra-Long Staple Organic Giza Cotton Poplin",
+    "fit": "Oversized boxy cut. Size down for a classic tailored profile.",
+    "details": [
+      "Milled by Albini in Bergamo, Italy",
+      "Single needle lockstitch stitching (22 stitches per inch)",
+      "Curved hem with reinforced triangular side gussets",
+      "Pre-washed to eliminate post-purchase shrinkage"
+    ],
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": [
+      { "name": "Chalk White", "hex": "#F8F8F6" },
+      { "name": "Sky Stripe", "hex": "#DCE6EC" },
+      { "name": "Washed Slate", "hex": "#4D555A" }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "alr-009",
+    "name": "Washed Silk Gauze Scarf",
+    "category": "Accessories",
+    "price": 240,
+    "currency": "USD",
+    "badge": "New Edition",
+    "subtitle": "Oversized featherweight wrap with hand-rolled pin hems",
+    "description": "An ethereal square wrap measuring 140cm x 140cm, printed in monochromatic botanical ink washes. Light enough to knot effortlessly or wear draped as an evening stole.",
+    "composition": "100% Silk Habotai Gauze",
+    "fit": "Generous square dimension: 140cm x 140cm.",
+    "details": [
+      "Artisanal screen print with low-impact organic dyes",
+      "Hand-rolled edges sewn by master seamstresses in Como",
+      "Delivered in custom ALURA embossed rigid gift box"
+    ],
+    "sizes": ["One Size"],
+    "colors": [
+      { "name": "Smoked Pearl", "hex": "#C2BFB9" },
+      { "name": "Umber Shadow", "hex": "#3D3833" }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "inStock": true,
+    "featured": false
+  },
+  {
+    "id": "alr-010",
+    "name": "Relaxed Tailored Wool Shorts",
+    "category": "Trousers",
+    "price": 380,
+    "currency": "USD",
+    "badge": "Edition 04",
+    "subtitle": "Longline pleated bermuda profile in high-twist tropical wool",
+    "description": "Constructed with clean front pleats, slant pockets, and a knee-grazing wide cuff. Tailored to transition seamlessly between warm weather tailoring and seasonal layering.",
+    "composition": "100% High-Twist Tropical Virgin Wool (260 GSM)",
+    "fit": "Mid-to-high rise with wide leg opening falling just above the knee.",
+    "details": [
+      "Wrinkle-resistant high-twist yarn structure",
+      "Clean extended tab closure with concealed hook-and-bar",
+      "Curtain waistband with contrast lining",
+      "Dry clean only"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": [
+      { "name": "Dark Olive", "hex": "#383B32" },
+      { "name": "Muted Slate", "hex": "#505459" }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1200&q=85",
+      "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1200&q=85"
+    ],
+    "inStock": true,
+    "featured": false
+  }
+]

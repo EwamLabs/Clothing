@@ -1,0 +1,20 @@
+{
+  "name": "alura-clothing",
+  "version": "1.0.0",
+  "description": "ALURA - Contemporary Luxury Fashion & Atelier E-Commerce Store",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "clothing",
+    "fashion",
+    "editorial",
+    "luxury",
+    "atelier",
+    "ecommerce"
+  ],
+  "author": "ALURA Studio",
+  "license": "ISC"
+}

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALURA — Contemporary Luxury Atelier & Wardrobe</title>
+  <meta name="description" content="ALURA is an independent contemporary fashion house specializing in sculptural silhouettes, double-faced cashmere, and architectural tailoring.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" role="region" aria-label="Announcement">
+    <div class="announcement-inner">
+      <span class="announcement-text">AUTUMN / WINTER 2026 EDITION — COMPLIMENTARY WHITE-GLOVE COURIER WORLDWIDE</span>
+      <span class="announcement-atelier">ATELIER PARIS • NEW YORK • MILAN</span>
+    </div>
+  </aside>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      <nav class="nav-links nav-left" aria-label="Primary Navigation">
+        <button class="nav-link-btn active" data-nav="collection">Collection</button>
+        <button class="nav-link-btn" data-nav="atelier">The Atelier</button>
+        <button class="nav-link-btn" data-nav="manifesto">Philosophy</button>
+        <button class="nav-link-btn" data-nav="archives">Lookbook</button>
+      </nav>
+
+      <!-- Brand Mark -->
+      <div class="brand-container">
+        <a href="#" class="brand-logo" id="brandLogo">ALURA</a>
+        <span class="brand-tagline">ÉDITIONS ATELIER</span>
+      </div>
+
+      <!-- Right Utility Actions -->
+      <div class="nav-actions nav-right">
+        <div class="search-trigger-wrapper">
+          <button class="action-btn" id="searchToggleBtn" aria-label="Search Collection">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+            </svg>
+            <span class="btn-text">Search</span>
+          </button>
+        </div>
+
+        <div class="currency-selector" id="currencySelector">
+          <span class="currency-active" id="activeCurrency">USD ($)</span>
+        </div>
+
+        <button class="action-btn bag-trigger" id="bagToggleBtn" aria-label="Shopping Bag">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 01-8 0"></path>
+          </svg>
+          <span class="btn-text">Bag</span>
+          <span class="bag-count" id="bagCountBadge">0</span>
+        </button>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Mobile Menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Search Overlay Bar -->
+    <div class="search-bar-dropdown" id="searchDropdown">
+      <div class="search-inner">
+        <svg class="icon search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Search by garment, fabric (cashmere, wool, silk), or cut..." autocomplete="off">
+        <button class="search-clear-btn" id="searchClearBtn" aria-label="Clear Search">&times;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-content">
+      <div class="mobile-drawer-header">
+        <span class="mobile-brand">ALURA</span>
+        <button class="close-drawer-btn" id="closeMobileDrawerBtn">&times;</button>
+      </div>
+      <nav class="mobile-nav">
+        <a href="#collectionSection" class="mobile-link">COLLECTION</a>
+        <a href="#atelierSection" class="mobile-link">THE ATELIER</a>
+        <a href="#lookbookSection" class="mobile-link">LOOKBOOK VOL. IV</a>
+        <a href="#manifestoSection" class="mobile-link">PHILOSOPHY</a>
+      </nav>
+      <div class="mobile-drawer-footer">
+        <p class="mobile-meta">ALURA ATELIER PARIS • NEW YORK</p>
+        <p class="mobile-meta">PRIVATE APPOINTMENTS: CONCIERGE@ALURA.COM</p>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Editorial Hero Section -->
+    <section class="editorial-hero">
+      <div class="hero-image-wrap">
+        <img 
+          src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=2000&q=85" 
+          alt="ALURA Autumn Winter 2026 Lookbook"
+          class="hero-img"
+        >
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <span class="hero-edition-label">EDITION 04 — AUTUMN / WINTER 2026</span>
+        <h1 class="hero-title">The Architectural Silhouette</h1>
+        <p class="hero-summary">
+          Form, materiality, and permanence. Sculptural tailoring engineered in double-faced Biella wool, 
+          raw Mongolian cashmere, and sandwashed Mulberry silk.
+        </p>
+        <div class="hero-actions">
+          <a href="#collectionSection" class="cta-btn cta-btn-primary">EXPLORE THE COLLECTION</a>
+          <a href="#lookbookSection" class="cta-btn cta-btn-secondary">VIEW LOOKBOOK</a>
+        </div>
+      </div>
+
+      <div class="hero-meta-bar">
+        <div class="hero-meta-col">
+          <span class="meta-label">ORIGIN</span>
+          <span class="meta-val">BIELLA &amp; PORTO</span>
+        </div>
+        <div class="hero-meta-col">
+          <span class="meta-label">FABRICS</span>
+          <span class="meta-val">DOUBLE-FACED CASHMERE &amp; VIRGIN WOOL</span>
+        </div>
+        <div class="hero-meta-col">
+          <span class="meta-label">PHILOSOPHY</span>
+          <span class="meta-val">REDUCED PROPORTION &amp; SCULPTURAL DRAPE</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collection Showcase Section -->
+    <section class="collection-section" id="collectionSection">
+      <div class="section-header">
+        <div class="header-titles">
+          <span class="section-eyebrow">CURATED WARDROBE</span>
+          <h2 class="section-title">Editions &amp; Atelier Garments</h2>
+        </div>
+
+        <!-- Filter & Sorting Controls -->
+        <div class="filter-controls">
+          <div class="category-tabs" id="categoryTabs" role="tablist">
+            <button class="tab-btn active" data-category="All" role="tab" aria-selected="true">All (10)</button>
+            <button class="tab-btn" data-category="Outerwear" role="tab">Outerwear</button>
+            <button class="tab-btn" data-category="Tailoring" role="tab">Tailoring</button>
+            <button class="tab-btn" data-category="Knitwear" role="tab">Knitwear</button>
+            <button class="tab-btn" data-category="Trousers" role="tab">Trousers</button>
+            <button class="tab-btn" data-category="Accessories" role="tab">Accessories</button>
+          </div>
+
+          <div class="sort-selector-wrap">
+            <label for="sortSelect" class="sort-label">Sort:</label>
+            <select id="sortSelect" class="sort-select">
+              <option value="featured">Atelier Curated</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+              <option value="newest">Newest Editions</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-status-row">
+        <span class="results-counter" id="resultsCounter">Displaying 10 editions</span>
+        <div class="active-filter-tag" id="activeFilterBadge" style="display: none;">
+          <span id="activeFilterText">All</span>
+          <button id="resetFilterBtn">&times;</button>
+        </div>
+      </div>
+
+      <!-- Catalog Grid -->
+      <div class="product-grid" id="productGrid">
+        <!-- Rendered dynamically via JavaScript -->
+        <div class="loading-state">
+          <div class="loading-spinner"></div>
+          <p>Consulting Atelier Catalog...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Editorial Lookbook Banner Spread -->
+    <section class="lookbook-spread" id="lookbookSection">
+      <div class="spread-container">
+        <div class="spread-image-col">
+          <img 
+            src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1400&q=85" 
+            alt="Double-faced cashmere drape detail"
+            class="spread-img"
+          >
+          <span class="image-caption">FIGURE 1.04 — SCULPTURAL DRAPE IN UNLINED CASHMERE</span>
+        </div>
+        <div class="spread-text-col">
+          <span class="spread-kicker">MONOGRAPH VOL. IV</span>
+          <h2 class="spread-heading">Tactile Permanence Over Seasonal Excess</h2>
+          <p class="spread-paragraph">
+            At ALURA, garments are designed as wearable architecture. We bypass the rapid obsolescence 
+            of trend cycles, developing each piece across twenty-four months of fitting and fabric evolution.
+          </p>
+          <p class="spread-paragraph">
+            Every garment begins with yarn selection from historic spinning mills in Biella and Kinross. 
+            By eliminating exterior hardware and unnecessary ornamentation, the silhouette speaks through 
+            density, drape, and the intimate hand of raw noble fibers.
+          </p>
+          <div class="spread-spec-table">
+            <div class="spec-row">
+              <span class="spec-name">FABRIC MILL</span>
+              <span class="spec-value">Lanificio Fratelli Cerruti, Biella</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-name">SEAM CONSTRUCTION</span>
+              <span class="spec-value">Split-Edge Double Weave, Hand-Closed</span>
+            </div>
+            <div class="spec-row">
+              <span class="spec-name">EDITION NUMBER</span>
+              <span class="spec-value">Strictly Limited to 120 Numbered Pieces</span>
+            </div>
+          </div>
+          <a href="#collectionSection" class="spread-link">VIEW CURATED OUTERWEAR &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Atelier Craft Section -->
+    <section class="atelier-section" id="atelierSection">
+      <div class="atelier-inner">
+        <div class="atelier-card">
+          <span class="atelier-num">01 / PROVENANCE</span>
+          <h3 class="atelier-title">The Fiber Archive</h3>
+          <p class="atelier-desc">
+            We source exclusively from heritage European mills: Scottish 5-gauge cashmere, 
+            Giza 87 Egyptian cotton, and Tuscan vegetable-tanned full-grain leather.
+          </p>
+        </div>
+        <div class="atelier-card">
+          <span class="atelier-num">02 / STRUCTURE</span>
+          <h3 class="atelier-title">Unlined Lightness</h3>
+          <p class="atelier-desc">
+            By stripping out stiff adhesives and synthetic interlinings, our garments 
+            conform naturally to the body, holding shape through precise textile tension.
+          </p>
+        </div>
+        <div class="atelier-card">
+          <span class="atelier-num">03 / GUARANTEE</span>
+          <h3 class="atelier-title">Lifelong Repair</h3>
+          <p class="atelier-desc">
+            Every ALURA coat and tailored piece includes complimentary restorative mending 
+            at our Paris atelier, ensuring each edition endures for generations.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Manifesto Quote -->
+    <section class="manifesto-section" id="manifestoSection">
+      <div class="manifesto-container">
+        <blockquote class="manifesto-quote">
+          &ldquo;Luxury is not the presence of decoration. It is the absolute absence of vulgarity and the quiet perfection of cut.&rdquo;
+        </blockquote>
+        <cite class="manifesto-author">— HÉLÈNE LAURENT, CREATIVE DIRECTOR &amp; CO-FOUNDER</cite>
+      </div>
+    </section>
+
+    <!-- Newsletter Dispatch Section -->
+    <section class="newsletter-section">
+      <div class="newsletter-inner">
+        <span class="newsletter-tag">PRIVATE CIRCLE</span>
+        <h2 class="newsletter-title">The ALURA Dispatch</h2>
+        <p class="newsletter-sub">
+          Receive confidential salon previews, fabric monographs, and advance allocation 
+          for forthcoming seasonal editions. We respect discretion.
+        </p>
+        <form class="newsletter-form" id="newsletterForm">
+          <div class="newsletter-input-group">
+            <input 
+              type="email" 
+              id="newsletterEmail" 
+              placeholder="Enter your email address" 
+              required
+            >
+            <button type="submit" class="newsletter-submit-btn">
+              <span>REGISTER</span>
+              <svg class="icon arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+          <div class="form-feedback" id="newsletterFeedback"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-col brand-col">
+        <span class="footer-brand">ALURA</span>
+        <p class="footer-motto">Sculptural form, tactile permanence, and refined modern tailoring.</p>
+        <div class="footer-locations">
+          <span>PARIS</span> &bull; <span>NEW YORK</span> &bull; <span>MILAN</span>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">COLLECTIONS</h4>
+        <ul class="footer-list">
+          <li><a href="#collectionSection" data-cat="Outerwear">Outerwear &amp; Coats</a></li>
+          <li><a href="#collectionSection" data-cat="Tailoring">Suits &amp; Blazers</a></li>
+          <li><a href="#collectionSection" data-cat="Knitwear">Scottish Cashmere</a></li>
+          <li><a href="#collectionSection" data-cat="Trousers">Tailored Trousers</a></li>
+          <li><a href="#collectionSection" data-cat="Accessories">Tuscan Leather</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">CLIENT SERVICES</h4>
+        <ul class="footer-list">
+          <li><a href="#" class="footer-modal-trigger" data-modal="concierge">Concierge &amp; Private Fitting</a></li>
+          <li><a href="#" class="footer-modal-trigger" data-modal="shipping">Complimentary Courier Delivery</a></li>
+          <li><a href="#" class="footer-modal-trigger" data-modal="returns">Exchanges &amp; 30-Day Returns</a></li>
+          <li><a href="#" class="footer-modal-trigger" data-modal="care">Garment Care &amp; Repair</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-heading">THE HOUSE</h4>
+        <ul class="footer-list">
+          <li><a href="#manifestoSection">Atelier Philosophy</a></li>
+          <li><a href="#atelierSection">Material Provenance</a></li>
+          <li><a href="#lookbookSection">Monograph Archive</a></li>
+          <li><a href="#" class="footer-modal-trigger" data-modal="sustainability">Circular Commitment</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="copyright">&copy; 2026 ALURA ATELIER INC. ALL RIGHTS RESERVED.</p>
+      <div class="legal-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Sale</a>
+        <a href="#">Accessibility</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-out Bag / Cart Drawer -->
+  <div class="bag-drawer-backdrop" id="bagBackdrop"></div>
+  <aside class="bag-drawer" id="bagDrawer" aria-hidden="true">
+    <div class="bag-header">
+      <div class="bag-title-wrap">
+        <h3 class="bag-title">SHOPPING BAG</h3>
+        <span class="bag-item-count" id="bagDrawerCount">(0 ITEMS)</span>
+      </div>
+      <button class="close-bag-btn" id="closeBagBtn" aria-label="Close Shopping Bag">&times;</button>
+    </div>
+
+    <div class="bag-shipping-perk">
+      <svg class="perk-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+        <rect x="1" y="3" width="15" height="13"></rect>
+        <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+        <circle cx="5.5" cy="18.5" r="2.5"></circle>
+        <circle cx="18.5" cy="18.5" r="2.5"></circle>
+      </svg>
+      <span>Complimentary express courier &amp; gift packaging included</span>
+    </div>
+
+    <!-- Items container -->
+    <div class="bag-items-list" id="bagItemsList">
+      <!-- Injected via JavaScript -->
+    </div>
+
+    <!-- Bag Footer -->
+    <div class="bag-footer" id="bagFooter">
+      <div class="bag-subtotal-row">
+        <span class="subtotal-label">Subtotal</span>
+        <span class="subtotal-amount" id="bagSubtotalAmount">$0.00</span>
+      </div>
+      <p class="bag-note">Taxes calculated at checkout. Worldwide complimentary duties.</p>
+      <button class="checkout-btn" id="openCheckoutBtn">PROCEED TO CHECKOUT</button>
+      <button class="continue-shopping-btn" id="continueShoppingBtn">CONTINUE BROWSING</button>
+    </div>
+  </aside>
+
+  <!-- Product Detail Modal (Quick View) -->
+  <div class="modal-backdrop" id="productModalBackdrop"></div>
+  <div class="product-modal" id="productModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <button class="close-modal-btn" id="closeProductModalBtn" aria-label="Close Modal">&times;</button>
+    <div class="product-modal-body" id="productModalBody">
+      <!-- Injected via JavaScript -->
+    </div>
+  </div>
+
+  <!-- Checkout Modal -->
+  <div class="modal-backdrop" id="checkoutModalBackdrop"></div>
+  <div class="checkout-modal" id="checkoutModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="checkout-modal-header">
+      <div class="checkout-brand">ALURA ATELIER CHECKOUT</div>
+      <button class="close-modal-btn" id="closeCheckoutModalBtn" aria-label="Close Checkout">&times;</button>
+    </div>
+    
+    <div class="checkout-modal-content" id="checkoutModalContent">
+      <div class="checkout-form-col">
+        <form id="checkoutForm" class="checkout-form">
+          <div class="form-section">
+            <h4 class="form-section-title">01 / CLIENT INFORMATION</h4>
+            <div class="form-row">
+              <div class="form-group flex-1">
+                <label for="clientName">Full Name *</label>
+                <input type="text" id="clientName" required placeholder="Eleanor Vance">
+              </div>
+              <div class="form-group flex-1">
+                <label for="clientEmail">Email Address *</label>
+                <input type="email" id="clientEmail" required placeholder="eleanor.vance@example.com">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="clientPhone">Telephone (For White-Glove Courier)</label>
+              <input type="tel" id="clientPhone" placeholder="+1 (555) 019-2834">
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h4 class="form-section-title">02 / DELIVERY ADDRESS</h4>
+            <div class="form-group">
+              <label for="shipAddress">Street Address *</label>
+              <input type="text" id="shipAddress" required placeholder="740 Park Avenue, Apt 11B">
+            </div>
+            <div class="form-row">
+              <div class="form-group flex-1">
+                <label for="shipCity">City *</label>
+                <input type="text" id="shipCity" required placeholder="New York">
+              </div>
+              <div class="form-group flex-1">
+                <label for="shipPostal">Postal Code *</label>
+                <input type="text" id="shipPostal" required placeholder="10021">
+              </div>
+              <div class="form-group flex-1">
+                <label for="shipCountry">Country *</label>
+                <select id="shipCountry">
+                  <option value="United States">United States</option>
+                  <option value="France">France</option>
+                  <option value="United Kingdom">United Kingdom</option>
+                  <option value="Italy">Italy</option>
+                  <option value="Germany">Germany</option>
+                  <option value="Japan">Japan</option>
+                  <option value="Canada">Canada</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h4 class="form-section-title">03 / PAYMENT METHOD (SIMULATION)</h4>
+            <div class="payment-card-mock">
+              <div class="card-brand-row">
+                <span class="card-chip"></span>
+                <span class="card-types">VISA / MASTERCARD / AMEX</span>
+              </div>
+              <div class="form-group">
+                <label for="cardNumber">Card Number</label>
+                <input type="text" id="cardNumber" placeholder="•••• •••• •••• 4242" value="4242 •••• •••• 8891">
+              </div>
+              <div class="form-row">
+                <div class="form-group flex-1">
+                  <label for="cardExpiry">Expiration</label>
+                  <input type="text" id="cardExpiry" placeholder="MM/YY" value="11/28">
+                </div>
+                <div class="form-group flex-1">
+                  <label for="cardCvc">CVC</label>
+                  <input type="text" id="cardCvc" placeholder="CVC" value="382">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="submit-order-btn" id="submitOrderBtn">
+            <span class="btn-spinner" id="checkoutSpinner" style="display: none;"></span>
+            <span id="submitOrderBtnText">CONFIRM &amp; AUTHORIZE ORDER</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- Checkout Summary Col -->
+      <div class="checkout-summary-col">
+        <h4 class="summary-title">ORDER SUMMARY</h4>
+        <div class="summary-items-list" id="checkoutSummaryItems">
+          <!-- Injected via JavaScript -->
+        </div>
+
+        <div class="summary-calc-block">
+          <div class="calc-row">
+            <span>Subtotal</span>
+            <span id="checkoutSubtotal">$0.00</span>
+          </div>
+          <div class="calc-row">
+            <span>White-Glove Courier</span>
+            <span class="text-green">Complimentary</span>
+          </div>
+          <div class="calc-row">
+            <span>Estimated Atelier Tax (8.25%)</span>
+            <span id="checkoutTax">$0.00</span>
+          </div>
+          <div class="calc-row total-row">
+            <span>Total Payable</span>
+            <span id="checkoutTotal">$0.00</span>
+          </div>
+        </div>
+
+        <div class="summary-guarantee">
+          <p>✦ Delivered in rigid ALURA presentation box with archival garment dust cover and custom hanger.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Order Confirmation Modal -->
+  <div class="modal-backdrop" id="orderConfirmBackdrop"></div>
+  <div class="order-confirm-modal" id="orderConfirmModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="confirm-card" id="confirmCardContent">
+      <!-- Injected via JavaScript on checkout response -->
+    </div>
+  </div>
+
+  <!-- Client Services Info Modal -->
+  <div class="modal-backdrop" id="infoModalBackdrop"></div>
+  <div class="info-modal" id="infoModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <button class="close-modal-btn" id="closeInfoModalBtn">&times;</button>
+    <div class="info-modal-content" id="infoModalContent">
+      <!-- Injected via JavaScript based on trigger -->
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Application Script -->
+  <script src="app.js"></script>
+</body>
+</html>
