@@ -15,4 +15,3 @@ What it does:Loads the page, fetches products from the server, and displays them
 
 To run:Start the server, then open it in a browser.
 
-Want me to add any specific feature back (like a cart or filtering), still described in text only?
